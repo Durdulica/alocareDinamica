@@ -783,5 +783,92 @@ void ex22() {
     delete[] arr;
 }
 
+//inserati dupa al k-lea elem. cu 3 div. suma div. lui
+
+int sumaDiv(int nr) {
+    int sum = 0;
+    for(int i = 1; i <= nr; i++) {
+        if(nr % i == 0) sum += i;
+    }
+    return sum;
+}
+
+int ctDiv(int nr) {
+    int ct = 0;
+    for(int i = 1; i <= nr; i++) {
+        if(nr % i == 0) ct++;
+    }
+    return ct;
+}
+
+int* f1(int *arr, int&n, int k) {
+    int index = 0;
+    for(int i = 0; i < n; i++) {
+        if(ctDiv(arr[i]) == 3) {
+            index++;
+            if(index == k) {
+                arr = inserarePoz(arr, n, i);
+                i++;
+                arr[i] = sumaDiv(arr[i]);
+            }
+        }
+    }
+
+    int *scrie = new int[n]{};
+    scrie = transfer(scrie, arr, n);
+    return scrie;
+}
+
+void ex23() {
+    int n = 5, k = 2;
+    int *arr = new int[n]{9,8,6,9,20};
+
+    arr = f1(arr,n,k);
+    afisVec(arr,n);
+    delete[] arr;
+}
+
+//sa se insereze inainte de fiecare nr. ce are toate cif. patr. perf, prod. cif. lui
+
+bool cifPatrPerf(int nr) {
+    while(nr) {
+        int aux = 0;
+        if(!ePatrPerf(nr % 10, aux)) return false;
+        nr /= 10;
+    }
+    return true;
+}
+
+int prodCif(int nr) {
+    int p = 1;
+    while(nr) {
+        p *= nr % 10;
+        nr /= 10;
+    }
+    return p;
+}
+
+int* f2(int *arr, int&n) {
+    for(int i = 0; i < n; i++) {
+        if(cifPatrPerf(arr[i])) {
+            arr = inserarePoz(arr, n, i);
+            arr[i] = prodCif(arr[i]);
+            i++;
+        }
+    }
+
+    int *scrie = new int[n]{};
+    scrie = transfer(scrie, arr, n);
+    return scrie;
+}
+
+void ex24() {
+    int n = 5;
+    int *arr = new int[n]{9,8,6,941,41};
+
+    arr = f2(arr,n);
+    afisVec(arr,n);
+    delete[] arr;
+}
 
 #endif //EXERCITII_H

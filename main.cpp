@@ -1,6 +1,6 @@
 #include "exercitii.h"
 
 int main() {
-    ex22();
+    ex24();
 }
 
