@@ -1,0 +1,27 @@
+# ninja log v6
+5	501	7745482296635331	CMakeFiles/alocareDinamica.dir/main.cpp.obj	3b866c75c447412f
+501	618	7745482301603567	alocareDinamica.exe	fd841c1aafe8f6bf
+6	445	7745482803619667	CMakeFiles/alocareDinamica.dir/main.cpp.obj	3b866c75c447412f
+446	532	7745482808019487	alocareDinamica.exe	fd841c1aafe8f6bf
+6	528	7745482868105522	CMakeFiles/alocareDinamica.dir/main.cpp.obj	3b866c75c447412f
+528	645	7745482873328363	alocareDinamica.exe	fd841c1aafe8f6bf
+61	597	7747152196821806	CMakeFiles/alocareDinamica.dir/main.cpp.obj	3b866c75c447412f
+597	857	7747152202191825	alocareDinamica.exe	fd841c1aafe8f6bf
+5	448	7747152417897077	CMakeFiles/alocareDinamica.dir/main.cpp.obj	3b866c75c447412f
+448	537	7747152422325576	alocareDinamica.exe	fd841c1aafe8f6bf
+5	484	7747152545757654	CMakeFiles/alocareDinamica.dir/main.cpp.obj	3b866c75c447412f
+485	601	7747152550553139	alocareDinamica.exe	fd841c1aafe8f6bf
+67	577	7747988843250603	CMakeFiles/alocareDinamica.dir/main.cpp.obj	3b866c75c447412f
+577	811	7747988848352896	alocareDinamica.exe	fd841c1aafe8f6bf
+5	461	7747989003907855	CMakeFiles/alocareDinamica.dir/main.cpp.obj	3b866c75c447412f
+461	549	7747989008467717	alocareDinamica.exe	fd841c1aafe8f6bf
+6	551	7747989086915044	CMakeFiles/alocareDinamica.dir/main.cpp.obj	3b866c75c447412f
+552	662	7747989092364918	alocareDinamica.exe	fd841c1aafe8f6bf
+5	488	7747995139980443	CMakeFiles/alocareDinamica.dir/main.cpp.obj	3b866c75c447412f
+488	581	7747995144808743	alocareDinamica.exe	fd841c1aafe8f6bf
+5	476	7747995229660425	CMakeFiles/alocareDinamica.dir/main.cpp.obj	3b866c75c447412f
+476	566	7747995234371830	alocareDinamica.exe	fd841c1aafe8f6bf
+8	581	7748005321948822	CMakeFiles/alocareDinamica.dir/main.cpp.obj	3b866c75c447412f
+582	682	7748005327683098	alocareDinamica.exe	fd841c1aafe8f6bf
+9	585	7748058530410491	CMakeFiles/alocareDinamica.dir/main.cpp.obj	3b866c75c447412f
+585	712	7748058536180515	alocareDinamica.exe	fd841c1aafe8f6bf
